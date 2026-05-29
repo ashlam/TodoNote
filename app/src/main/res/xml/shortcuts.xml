@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:shortcutId="create_task"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_add"
+        android:shortcutShortLabel="@string/shortcut_create_task_short"
+        android:shortcutLongLabel="@string/shortcut_create_task_long">
+        <intent
+            android:action="com.todonote.action.CREATE_TASK"
+            android:targetPackage="com.todonote"
+            android:targetClass="com.todonote.MainActivity" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="open_timer"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_timer"
+        android:shortcutShortLabel="@string/shortcut_open_timer_short"
+        android:shortcutLongLabel="@string/shortcut_open_timer_long">
+        <intent
+            android:action="com.todonote.action.OPEN_TIMER"
+            android:targetPackage="com.todonote"
+            android:targetClass="com.todonote.MainActivity" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="open_habits"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_habit"
+        android:shortcutShortLabel="@string/shortcut_open_habits_short"
+        android:shortcutLongLabel="@string/shortcut_open_habits_long">
+        <intent
+            android:action="com.todonote.action.OPEN_HABITS"
+            android:targetPackage="com.todonote"
+            android:targetClass="com.todonote.MainActivity" />
+    </shortcut>
+
+</shortcuts>

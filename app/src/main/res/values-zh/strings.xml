@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">TodoNote</string>
+    <string name="nav_tasks">任务</string>
+    <string name="nav_calendar">日历</string>
+    <string name="nav_habits">习惯</string>
+    <string name="nav_timer">番茄钟</string>
+    <string name="nav_settings">设置</string>
+    <string name="add_list">添加清单</string>
+    <string name="add_task">添加任务</string>
+    <string name="task_title_hint">任务标题</string>
+    <string name="task_notes_hint">备注</string>
+    <string name="priority_high">高</string>
+    <string name="priority_medium">中</string>
+    <string name="priority_low">低</string>
+    <string name="save">保存</string>
+    <string name="delete">删除</string>
+    <string name="cancel">取消</string>
+    <string name="completed">已完成</string>
+    <string name="search">搜索</string>
+    <string name="empty_state_title">还没有任务</string>
+    <string name="empty_state_desc">点击添加按钮创建你的第一个任务</string>
+    <string name="due_date">截止日期</string>
+    <string name="reminder">提醒</string>
+    <string name="tags">标签</string>
+    <string name="progress">进度</string>
+    <string name="theme">主题</string>
+    <string name="dark_mode">深色模式</string>
+    <string name="backup_restore">备份与恢复</string>
+    <string name="about">关于</string>
+    <string name="shortcut_create_task_short">新建任务</string>
+    <string name="shortcut_create_task_long">快速创建新任务</string>
+    <string name="shortcut_open_timer_short">番茄钟</string>
+    <string name="shortcut_open_timer_long">打开番茄钟</string>
+    <string name="shortcut_open_habits_short">习惯</string>
+    <string name="shortcut_open_habits_long">打开习惯打卡</string>
+</resources>
